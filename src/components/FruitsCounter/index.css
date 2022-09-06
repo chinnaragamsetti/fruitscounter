@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.bg {
+  height: 100vh;
+  background-color: yellow;
+  padding: 10%;
+}
+.bg2 {
+  background-color: white;
+  padding: 10%;
+}
+.h {
+  font-size: 40px;
+  color: black;
+}
+.span {
+  font-size: 40px;
+  color: yellow;
+}
+
+.fruitscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fruit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image {
+  width: 40%;
+}
+.butt1 {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+}
