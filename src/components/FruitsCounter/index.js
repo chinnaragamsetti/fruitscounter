@@ -1,10 +1,12 @@
 import {Component} from 'react'
-
 import './index.css'
+
 import {className} from 'postcss-selector-parser'
 
 class FruitsCounter extends Component {
+
     const state={mango:0,mango:0}
+    
     mangoIncrement=()=>{
             this.setState((prevstate)=>({mango:prevstate.mango+1}))
     }
