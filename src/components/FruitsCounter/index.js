@@ -5,7 +5,7 @@ import {className} from 'postcss-selector-parser'
 
 class FruitsCounter extends Component {
 
-    const state={mango:0,mango:0}
+    const state={mango:0,banana:0}
     
     mangoIncrement=()=>{
             this.setState((prevstate)=>({mango:prevstate.mango+1}))
@@ -20,7 +20,7 @@ class FruitsCounter extends Component {
       <div className="bg">
         <div className="bg2">
           <h1 className="h">
-            Bob ate <span className="span">{mango}</span>mangoes{' '}
+            Bob ate <span className="span">{mango}</span>mangoes
             <span className="span">{bananas}</span> bananas
           </h1>
           <div className="fruitscontainer">
