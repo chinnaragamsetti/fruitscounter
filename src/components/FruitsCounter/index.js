@@ -5,7 +5,7 @@ import {className} from 'postcss-selector-parser'
 
 class FruitsCounter extends Component {
 
-    const state={mango:0,banana:0}
+    state={mango:0,banana:0}
     
     mangoIncrement=()=>{
             this.setState((prevstate)=>({mango:prevstate.mango+1}))
@@ -15,7 +15,7 @@ class FruitsCounter extends Component {
 
     }
   render() {
-        const {mango,banana}=this.state;
+        {mango,banana}=this.state
     return (
       <div className="bg">
         <div className="bg2">
@@ -28,7 +28,7 @@ class FruitsCounter extends Component {
               <image
                 src="https://assets.ccbp.in/frontend/react-js/mango-img.png"
                 alt="mango"
-                className={image}
+                //className={image}
               />
               <button className="butt1" onClick={this.mangoIncrement}>Eat Mango</button>
             </div>
@@ -36,7 +36,7 @@ class FruitsCounter extends Component {
               <image
                 src="https://assets.ccbp.in/frontend/react-js/banana-img.png"
                 alt="banana"
-                className={image}
+                //className={image}
               />
               <button className="butt1" onClick={this.bananaIncrement}>Eat Banana</button>
             </div>
